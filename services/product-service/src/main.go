@@ -19,7 +19,7 @@ func main() {
 		products := []product{
 			product{
 				ID:          "0000-0000-0001",
-				Title:       "Fork Handles",
+				Title:       "Vijay Handles",
 				Description: "Got forks? Worn out ones? You need our all new Fork Handles",
 				Price:       6.95,
 			},
