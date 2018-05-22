@@ -19,19 +19,19 @@ func main() {
 		products := []product{
 			product{
 				ID:          "0000-0000-0001",
-				Title:       "Vijay Handles",
+				Title:       "CICD",
 				Description: "Got forks? Worn out ones? You need our all new Fork Handles",
 				Price:       6.95,
 			},
 			product{
 				ID:          "0000-0000-0002",
-				Title:       "Four Candles",
+				Title:       "CI CD",
 				Description: "One candle never enough? You need our new Four Candles bundle",
 				Price:       3.75,
 			},
 			product{
 				ID:          "0000-0000-0003",
-				Title:       "Egg Basket",
+				Title:       "CICD",
 				Description: "Holds 6 unbroken eggs or 36 broken ones",
 				Price:       9.99,
 			},
