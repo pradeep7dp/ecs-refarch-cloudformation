@@ -20,7 +20,7 @@ func main() {
 			product{
 				ID:          "0000-0000-0001",
 				Title:       "CICD",
-				Description: "CD CDE DEMO ",
+				Description: "CI CD DEMO ",
 				Price:       100,
 			},
 			product{
