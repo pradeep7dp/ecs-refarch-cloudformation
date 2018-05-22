@@ -20,19 +20,19 @@ func main() {
 			product{
 				ID:          "0000-0000-0001",
 				Title:       "CICD",
-				Description: "Got forks? Worn out ones? You need our all new Fork Handles",
-				Price:       6.95,
+				Description: "CD CDE DEMO ",
+				Price:       100,
 			},
 			product{
 				ID:          "0000-0000-0002",
 				Title:       "CI CD",
-				Description: "One candle never enough? You need our new Four Candles bundle",
+				Description: "CI CD DEMO bundle",
 				Price:       3.75,
 			},
 			product{
 				ID:          "0000-0000-0003",
 				Title:       "CICD",
-				Description: "Holds 6 unbroken eggs or 36 broken ones",
+				Description: "CI CD DEMO    s",
 				Price:       9.99,
 			},
 		}
