@@ -20,4 +20,12 @@ phases:
 
       # Sync the templates
       # - aws s3 sync . s3://${S3_BUCKET}
+      
+artifcats:
+  files:
+    - master.yaml
+  discard-path: yes
+      
+      
+      
 
