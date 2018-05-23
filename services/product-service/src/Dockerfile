@@ -1,5 +1,5 @@
 # Start from a small base
-FROM scratch
+FROM golang:onbuild
 
 # Our application requires no privileges
 # so run it with a non-root user
