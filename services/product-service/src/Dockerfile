@@ -11,7 +11,8 @@ USER nobody
 EXPOSE 8001
 
 # Add our application binary
-ADD ../ /app
+WORKDIR ../
+ADD ./ /app
 
 # Run our application!
 ENTRYPOINT [ "/app" ]
