@@ -17,7 +17,12 @@ phases:
 
   build:
     commands:
-
+      docker build --tag "124864831979.dkr.ecr.eu-west-3.amazonaws.com/ps:latest" ./services/product-service/src/
+      docker build --tag "124864831979.dkr.ecr.eu-west-3.amazonaws.com/ws:latest" ./services/website-service/src/
+  post_build:
+    commands:
+      docker push "124864831979.dkr.ecr.eu-west-3.amazonaws.com/ps:latest"
+      docker push "124864831979.dkr.ecr.eu-west-3.amazonaws.com/ws:latest"
       # Sync the templates
       # - aws s3 sync . s3://${S3_BUCKET}
       
