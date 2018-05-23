@@ -16,13 +16,13 @@ phases:
       - ./tests/validate-templates.sh
 
   build:
-    commands:
-      - docker build --tag 124864831979.dkr.ecr.eu-west-3.amazonaws.com/ps:latest ./services/product-service/src/
-      - docker build --tag 124864831979.dkr.ecr.eu-west-3.amazonaws.com/ws:latest ./services/website-service/src/
+    #commands:
+     # - docker build --tag 124864831979.dkr.ecr.eu-west-3.amazonaws.com/ps:latest ./services/product-service/src/
+     # - docker build --tag 124864831979.dkr.ecr.eu-west-3.amazonaws.com/ws:latest ./services/website-service/src/
   post_build:
-    commands:
-      - docker push 124864831979.dkr.ecr.eu-west-3.amazonaws.com/ps
-      - docker push 124864831979.dkr.ecr.eu-west-3.amazonaws.com/ws
+    #commands:
+     # - docker push 124864831979.dkr.ecr.eu-west-3.amazonaws.com/ps
+     # - docker push 124864831979.dkr.ecr.eu-west-3.amazonaws.com/ws
       # Sync the templates
       # - aws s3 sync . s3://${S3_BUCKET}
       
