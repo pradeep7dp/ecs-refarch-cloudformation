@@ -17,8 +17,8 @@ phases:
 
   build:
     commands:
-      - docker build --tag latest 124864831979.dkr.ecr.eu-west-3.amazonaws.com/ps ./services/product-service/src/
-      - docker build --tag latest 124864831979.dkr.ecr.eu-west-3.amazonaws.com/ws ./services/website-service/src/
+      - docker build --tag 124864831979.dkr.ecr.eu-west-3.amazonaws.com/ps:latest ./services/product-service/src/
+      - docker build --tag 124864831979.dkr.ecr.eu-west-3.amazonaws.com/ws:latest ./services/website-service/src/
   post_build:
     commands:
       - docker push 124864831979.dkr.ecr.eu-west-3.amazonaws.com/ps
